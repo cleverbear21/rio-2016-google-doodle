@@ -1,0 +1,787 @@
+{
+  "version": 1,
+  "comment": "'20160321T16:19:12-now_6p ' exported by AE Butterfly Format Exporter v0.39",
+  "type": "stage",
+  "aspectRatio": 0.90851735015773,
+  "size": {
+    "width": 1440,
+    "height": 1585
+  },
+  "animations": [
+    {
+      "type": "animationGroup",
+      "id": "bg",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 1,
+          "height": 1
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "backgroundColor": {
+          "r": 0.4745098054409,
+          "g": 0.52549022436142,
+          "b": 0.79607844352722,
+          "a": 1
+        }
+      },
+      "shape": {
+        "name": "rectangle"
+      },
+      "animations": [
+
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "phonebg",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 0.62430555555556,
+          "height": 0.74195583596215
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.50555555555556,
+          "y": 0.68422712933754
+        },
+        "backgroundColor": {
+          "r": 0.61024326086044,
+          "g": 0.65276330709457,
+          "b": 0.87844669818878,
+          "a": 1
+        }
+      },
+      "shape": {
+        "name": "rectangle"
+      },
+      "animations": [
+
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "purple_nexus_BOTTOM.png",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 0.67222222222222,
+          "height": 1.05110410094637
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.50694444444444,
+          "y": 0.89242902208202
+        }
+      },
+      "backgroundImage": "Images/purple_nexus_BOTTOM.png",
+      "animations": [
+
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "weathercard.png",
+      "duration": 1.96666666666667,
+      "initialValues": {
+        "size": {
+          "width": 0.59861111111111,
+          "height": 0.28643533123028
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 0.5,
+        "position": {
+          "x": 0.50555555555556,
+          "y": 1.14826498422713
+        }
+      },
+      "backgroundImage": "Images/weathercard.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Position",
+          "duration": 1.93330078125,
+          "delay": 0.03336588541667,
+          "property": "position",
+          "keyframes": [
+            [
+              0,
+              {
+                "x": 0.50555555555556,
+                "y": 1.14826498422713
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.12080955026856,
+              {
+                "x": 0.50555555555556,
+                "y": 0.55078864353312
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.155326564631,
+              {
+                "x": 0.50555555555556,
+                "y": 0.49842271293375
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.42240406795642,
+              {
+                "x": 0.50555555555556,
+                "y": 0.55078864353312
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.55171659005573,
+              {
+                "x": 0.50555555555556,
+                "y": 0.28958990536278
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.38525028719448,
+                "y1": 0,
+                "x2": 0.71382888931931,
+                "y2": 0.9926380120747
+              }
+            ],
+            [
+              0.57757909447559,
+              {
+                "x": 0.50555555555556,
+                "y": 0.20853514029954
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.31746144225326,
+                "y1": 0.15708694885534,
+                "x2": 0.20002056009748,
+                "y2": 1
+              }
+            ],
+            [
+              0.86206664309407,
+              {
+                "x": 0.50555555555556,
+                "y": 0.25488958990536
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.97413749558014,
+              {
+                "x": 0.50555555555556,
+                "y": 0.0801261829653
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.16666666667,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              1,
+              {
+                "x": 0.50555555555556,
+                "y": 0.09463722397476
+              }
+            ]
+          ]
+        },
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.91666666666667,
+          "delay": 0.25,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              0.5
+            ],
+            [
+              0.09090909090909,
+              1
+            ],
+            [
+              0.92727272727273,
+              1
+            ],
+            [
+              1,
+              0.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "sportscard.png",
+      "duration": 2.01666666666667,
+      "initialValues": {
+        "size": {
+          "width": 0.59930555555556,
+          "height": 0.3198738170347
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 0.5,
+        "position": {
+          "x": 0.50555555555556,
+          "y": 1.46876971608833
+        }
+      },
+      "backgroundImage": "Images/sportscard.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Position",
+          "duration": 1.93330078125,
+          "delay": 0.03336588541667,
+          "property": "position",
+          "keyframes": [
+            [
+              0,
+              {
+                "x": 0.50555555555556,
+                "y": 1.46876971608833
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.12080955026856,
+              {
+                "x": 0.50555555555556,
+                "y": 0.87129337539432
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.155326564631,
+              {
+                "x": 0.50555555555556,
+                "y": 0.81892744479495
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.42240406795642,
+              {
+                "x": 0.50555555555556,
+                "y": 0.87129337539432
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.55171659005573,
+              {
+                "x": 0.50555555555556,
+                "y": 0.61009463722397
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.38525028719448,
+                "y1": 0,
+                "x2": 0.71382888931931,
+                "y2": 0.9926380120747
+              }
+            ],
+            [
+              0.57757909447559,
+              {
+                "x": 0.50555555555556,
+                "y": 0.52903987216074
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.31746144225326,
+                "y1": 0.15708694885534,
+                "x2": 0.20002056009748,
+                "y2": 1
+              }
+            ],
+            [
+              0.86206664309407,
+              {
+                "x": 0.50555555555556,
+                "y": 0.57539432176656
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.97413749558014,
+              {
+                "x": 0.50555555555556,
+                "y": 0.4006309148265
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.16666666667,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              1,
+              {
+                "x": 0.50555555555556,
+                "y": 0.41514195583596
+              }
+            ]
+          ]
+        },
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.91666666666667,
+          "delay": 1.1,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              0.5
+            ],
+            [
+              0.09090909090909,
+              1
+            ],
+            [
+              0.92727272727273,
+              1
+            ],
+            [
+              1,
+              0.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "placescard.png",
+      "duration": 1.85,
+      "initialValues": {
+        "size": {
+          "width": 0.59930555555556,
+          "height": 0.35331230283912
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 0.5,
+        "position": {
+          "x": 0.29965277777778,
+          "y": 1.53432022956985
+        }
+      },
+      "parentId": "weathercard.png",
+      "backgroundImage": "Images/placescard.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Position",
+          "duration": 1.20120442708333,
+          "delay": 0.03336588541667,
+          "property": "position",
+          "keyframes": [
+            [
+              0,
+              {
+                "x": 0.29965277777778,
+                "y": 1.53432022956985
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.19443917509011,
+              {
+                "x": 0.29965277777778,
+                "y": 0.99115991984803
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.24999322511585,
+              {
+                "x": 0.29965277777778,
+                "y": 0.94355452839406
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              0.63889867483266,
+              {
+                "x": 0.29965277777778,
+                "y": 0.76781607126759
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.44771126751327,
+                "y1": 0,
+                "x2": 0.28041966746118,
+                "y2": 0.94245234265295
+              }
+            ],
+            [
+              0.88889189994851,
+              {
+                "x": 0.29965277777778,
+                "y": 0.81724952117549
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.29782080293046,
+                "y1": 0.61335792130251,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              1,
+              {
+                "x": 0.29965277777778,
+                "y": 0.81639636641507
+              }
+            ]
+          ]
+        },
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.08333333333333,
+          "delay": 1.76666666666667,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              0.5
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "sun.png",
+      "duration": 0.46712239583333,
+      "initialValues": {
+        "size": {
+          "width": 0.15416666666667,
+          "height": 0.13753943217666
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.15798611111111,
+          "y": 0.17854889589905
+        }
+      },
+      "parentId": "weathercard.png",
+      "backgroundImage": "Images/sun.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Rotation",
+          "duration": 0.10009765625,
+          "delay": 0.36702473958333,
+          "property": "rotation",
+          "keyframes": [
+            [
+              0,
+              0,
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              1,
+              720
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "cloud.png",
+      "duration": 0.46712239583333,
+      "initialValues": {
+        "size": {
+          "width": 0.11666666666667,
+          "height": 0.07444794952681
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.09763876414352,
+          "y": 0.18712039360729
+        }
+      },
+      "parentId": "weathercard.png",
+      "backgroundImage": "Images/cloud.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Position",
+          "duration": 0.13346354166667,
+          "delay": 0.33365885416667,
+          "property": "position",
+          "keyframes": [
+            [
+              0,
+              {
+                "x": 0.09763876414352,
+                "y": 0.18712039360729
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.4,
+                "y1": 0,
+                "x2": 0.2,
+                "y2": 1
+              }
+            ],
+            [
+              1,
+              {
+                "x": 0.20388876414352,
+                "y": 0.18712039360729
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "top_blue_2",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 1,
+          "height": 0.32618296529968
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.5,
+          "y": 0.14416403785489
+        },
+        "backgroundColor": {
+          "r": 0.4745098054409,
+          "g": 0.52549022436142,
+          "b": 0.79607844352722,
+          "a": 1
+        }
+      },
+      "shape": {
+        "name": "rectangle"
+      },
+      "animations": [
+
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "purple_nexus_TOP.png",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 0.67291666666667,
+          "height": 0.21892744479495
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.50694444444444,
+          "y": 0.32302839116719
+        }
+      },
+      "backgroundImage": "Images/purple_nexus_TOP.png",
+      "animations": [
+
+      ]
+    }
+  ]
+}

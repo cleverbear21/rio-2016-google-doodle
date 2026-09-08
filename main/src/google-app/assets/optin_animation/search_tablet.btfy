@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "comment": "'20160208T14:31:44-search_tablet' exported by AE Butterfly Format Exporter v0.39",
+  "type": "stage",
+  "aspectRatio": 1.09714285714286,
+  "size": {
+    "width": 768,
+    "height": 700
+  },
+  "animations": [
+    {
+      "type": "animationGroup",
+      "id": "bg_",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 1.875,
+          "height": 2.26428571428571
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.55555555555556,
+          "sy": 0.44479495268139
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.49479166666667,
+          "y": 0.50357142857143
+        },
+        "backgroundColor": {
+          "r": 1,
+          "g": 0.59607845544815,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "shape": {
+        "name": "rectangle"
+      },
+      "animations": [
+
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "phonebg",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 1.17057291666667,
+          "height": 1.68
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.48832035595106,
+          "sy": 0.48832035595106
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.48177083333333,
+          "y": 0.58928571428571
+        },
+        "backgroundColor": {
+          "r": 0.9806832075119,
+          "g": 0.69339978694916,
+          "b": 0.26944750547409,
+          "a": 1
+        }
+      },
+      "shape": {
+        "name": "rectangle"
+      },
+      "animations": [
+
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "orangeshadow.png",
+      "duration": 0,
+      "initialValues": {
+        "size": {
+          "width": 0.23828125,
+          "height": 0.58571428571429
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 1,
+          "sy": 1
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.8828125,
+          "y": 0.46857142857143
+        }
+      },
+      "backgroundImage": "Images/orangeshadow.png",
+      "animations": [
+
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "movies.png",
+      "duration": 1.06773114260093,
+      "initialValues": {
+        "size": {
+          "width": 1.13411458333333,
+          "height": 1.90428571428571
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.50824560330668,
+          "sy": 0.50824560330668
+        },
+        "rotation": 0,
+        "opacity": 0,
+        "position": {
+          "x": 0.48177083333333,
+          "y": 0.77142857142857
+        }
+      },
+      "backgroundImage": "Images/movies.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.633984375,
+          "delay": 0.43374676760093,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              0
+            ],
+            [
+              0.68422674060382,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "qsb.png",
+      "duration": 0.93427734375,
+      "initialValues": {
+        "size": {
+          "width": 1.1328125,
+          "height": 0.20714285714286
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.45574712643678,
+          "sy": 0.45574712643678
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.48177083333333,
+          "y": 0.285
+        }
+      },
+      "backgroundImage": "Images/qsb.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Position",
+          "duration": 0.06673177083333,
+          "delay": 0.86754557291667,
+          "property": "position",
+          "keyframes": [
+            [
+              0,
+              {
+                "x": 0.48177083333333,
+                "y": 0.285
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.33333333,
+                "y1": 0,
+                "x2": 0.66666667,
+                "y2": 1
+              }
+            ],
+            [
+              1,
+              {
+                "x": 0.48177083333333,
+                "y": 0.235
+              }
+            ]
+          ]
+        },
+        {
+          "type": "animation",
+          "id": "Scale",
+          "duration": 0.06673177083333,
+          "delay": 0.86754557291667,
+          "property": "scale",
+          "keyframes": [
+            [
+              0,
+              {
+                "sx": 0.45574712643678,
+                "sy": 0.45574712643678
+              },
+              {
+                "name": "cubic-bezier",
+                "x1": 0.33333333,
+                "y1": 0,
+                "x2": 0.66666667,
+                "y2": 1
+              }
+            ],
+            [
+              1,
+              {
+                "sx": 0.50574712643678,
+                "sy": 0.50574712643678
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "apps.png",
+      "duration": 0.90091145833333,
+      "initialValues": {
+        "size": {
+          "width": 0.95703125,
+          "height": 0.49285714285714
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.5156462585034,
+          "sy": 0.5156462585034
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.47916666666667,
+          "y": 0.89428571428571
+        }
+      },
+      "backgroundImage": "Images/apps.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.03336588541667,
+          "delay": 0.86754557291667,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "moviequery.png",
+      "duration": 1.26793619791667,
+      "initialValues": {
+        "size": {
+          "width": 0.67578125,
+          "height": 0.07
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.5270002817804,
+          "sy": 0.5270002817804
+        },
+        "rotation": 0,
+        "opacity": 0,
+        "position": {
+          "x": 0.46875,
+          "y": 0.23714285714286
+        }
+      },
+      "backgroundImage": "Images/moviequery.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.400390625,
+          "delay": 0.86754557291667,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              0
+            ],
+            [
+              0.33333333333333,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "superg.png",
+      "duration": 1.26793619791667,
+      "initialValues": {
+        "size": {
+          "width": 0.05729166666667,
+          "height": 0.06285714285714
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.83187391550736,
+          "sy": 0.83187391550736
+        },
+        "rotation": 0,
+        "opacity": 0,
+        "position": {
+          "x": 0.24348958333333,
+          "y": 0.23571428571429
+        }
+      },
+      "backgroundImage": "Images/superg.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.26692708333333,
+          "delay": 1.00100911458333,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "animationGroup",
+      "id": "googlelogo.png",
+      "duration": 0.93427734375,
+      "initialValues": {
+        "size": {
+          "width": 0.23177083333333,
+          "height": 0.08285714285714
+        },
+        "anchorPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "sx": 0.60397300698432,
+          "sy": 0.60397300698432
+        },
+        "rotation": 0,
+        "opacity": 1,
+        "position": {
+          "x": 0.32682291666667,
+          "y": 0.29
+        }
+      },
+      "backgroundImage": "Images/googlelogo.png",
+      "animations": [
+        {
+          "type": "animation",
+          "id": "Opacity",
+          "duration": 0.10009765625,
+          "delay": 0.8341796875,
+          "property": "opacity",
+          "keyframes": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
